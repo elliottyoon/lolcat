@@ -22,7 +22,7 @@ def replace_words(some_text):
         if splitNoReturn in lolDict:
             some_text = some_text.replace(splitNoReturn, lolDict[splitNoReturn])
 
-        new_file_to_save.write(some_text)
+    new_file_to_save.write(some_text)
 
 for row in original_file:
     replace_words(row)
