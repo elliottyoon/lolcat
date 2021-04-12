@@ -1,9 +1,15 @@
 import json
 import os
+import requests
+
 
 # imports the translation key thingy
-with open('lolDict.json') as json_file:
-    lolDict = json.load(json_file)
+url = 'https://raw.githubusercontent.com/normansimonr/Dumb-Cogs/master/lolz/data/tranzlashun.json'
+resp = requests.get(url)
+lolDict = json.loads(resp.text)
+
+#with open('lolDict.json') as json_file:
+#    lolDict = json.load(json_file)
 
 filePath = input("enter .txt filepath here: ")
 file = open(filePath, "r")
