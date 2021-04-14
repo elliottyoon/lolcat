@@ -3,6 +3,8 @@
 
 What is **lolcat**? Simply put, it is an English-to-lolspeak translater, where lolspeak is the language lolcats: (from Wikepdia) the deliberately misspelled and grammatically quirky form of English associated with such images' captions.
 
+![lolcat](https://en.wiktionary.org/wiki/lolcat#/media/File:Lolcat.jpg)
+
 ---
 ### Setup:
 * Install dependencies: `pip3 install Pillow`
